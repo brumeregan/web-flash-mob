@@ -3,12 +3,21 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="style.css">
-    <script src="jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="jquery-2.1.0.min.js" type="text/javascript"></script>
     <script src="day2.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="center">
-<h2 id="choose"><span id="underline">Выберите наперсток</span></h2>
+    <div class="info">
+        <label>Wins: </label><span id="wins_amount">0</span>
+        <br>
+        <label>Loses: </label><span id="loses_amount">0</span>
+    </div>
+
+
+
+    <div class="title" id="choose"><h2 id="underline">Выберите наперсток</h2></div>
+
 
     <div id="shellGame">
         <div class="notselected"></div>
@@ -16,6 +25,7 @@
     <img src="1275328679_g-b_stern_pearl-at-9-10.jpg" class="click" />
     <img src="1275328679_g-b_stern_pearl-at-9-10.jpg" class="click"/>
 </div>
+    <button type="reset" class="reset" onclick="reset();">Play more...</button>
 </div>
 </body>
 </html>

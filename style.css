@@ -59,10 +59,13 @@ h2{
     /*cursor: pointer;*/
 /*}*/
 .loser{
-
+    /*width: 151px;
+    height: 187px;*/
     background-color: black;
+    border-color: red;
+    border-width: 2px;
+    /*cursor: pointer;*/
 }
-
 .winner{
     border-radius: 150px;
     border-color: green;
@@ -70,3 +73,23 @@ h2{
     /*cursor: pointer;
 /*}*/
 
+.info{
+    display: inline-table;
+    border: solid black 2px;
+}
+
+#wins_amount{
+    color: green;
+}
+#loses_amount{
+    color: red;
+}
+.reset{
+    width: 100px;
+    height: 40px;
+    background-color: limegreen;
+    border-radius: 15px;
+    position: relative;
+    left: 50%;
+
+}
