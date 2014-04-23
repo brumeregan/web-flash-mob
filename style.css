@@ -1,0 +1,73 @@
+h1{
+    color: yellowgreen;
+    text-shadow: black 1px 0,
+                black 1px 1px,
+                black 0 1px,
+                black -1px 1px,
+                black -1px 0,
+                black -1px -1px,
+                black 0 -1px,
+                black 1px -1px;
+}
+body{
+    background-color: beige;
+}
+#news{
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.5em;
+}
+#choose{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+#underline{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+img{
+    height: 10%;
+    width: 10%;
+    border: 1px solid black;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+#shellGame{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#center{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+h2{
+    color: red;
+    text-decoration: none;
+}
+/*.notselected{*/
+    /*widht: 151px;*/
+    /*height: 187px;*/
+    /*background-image: url(1275328679_g-b_stern_pearl-at-9-10.jpg);*/
+    /*cursor: pointer;*/
+/*}*/
+.loser{
+    widht: 151px;
+    height: 187px;
+    background-color: black;
+    /*cursor: pointer;*/
+
+.winner{
+    border-radius: 150px;
+    border-color: green;
+}
+    /*cursor: pointer;
+/*}*/
+
