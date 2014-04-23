@@ -6,42 +6,6 @@ var READY_STATUS = true;
 
 $(document).ready(function(){
 
-    //var userChoice1 = document.getElementsByTagName('img')[0];
-    //var userChoice2 = document.getElementsByTagName('img')[1];
-    //var userChoice3 = document.getElementsByTagName('img')[2];
-
-
-//    var userChoice = function(){
-//
-//if(userChoice1){
-//    userChoice ="first";
-//}else if(userChoice2){
-//    userChoice="second";
-//}else{
-//    userChoice3="third";
-//}
-//    };
-
-
-//    var computerChoice = Math.random(0, 1);
-//    if(computerChoice<=0.33){
-//        computerChoice="first";
-//    }
-//    else if(computerChoice<=0.66){
-//        computerChoice="second";
-//    }else{
-//        computerChoice="third";
-//    }
-//
-//
-//var compare = function(choice1, choice2){
-//    if(choice1===choice2){
-//        alert ("WIN!");
-//    }
-//    else{
-//        alert ("loser!");
-//    }
-//};
 
 
 $('.click').click(function(){
@@ -50,7 +14,7 @@ $('.click').click(function(){
     if(computer <=0.66){
 
         $('#underline').hide();
-        $('#choose').append('<h1 class="status">Loser!</h1>');
+        $('#choose').append('<h2 class="status">Loser!</h2>');
 
         $(this).addClass("loser");
         var lose = $('#loses_amount')[0];
