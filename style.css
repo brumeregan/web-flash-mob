@@ -59,10 +59,9 @@ h2{
     /*cursor: pointer;*/
 /*}*/
 .loser{
-    widht: 151px;
-    height: 187px;
+
     background-color: black;
-    /*cursor: pointer;*/
+}
 
 .winner{
     border-radius: 150px;
