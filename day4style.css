@@ -1,0 +1,176 @@
+body{
+    background-color: midnightblue;
+
+}
+#day4{
+    color: darkgrey;
+    text-align: center;
+    text-shadow: white 1px 0,
+                white 1px 1px,
+                   white 0 1px;
+}
+#main{
+    width: 900px;
+    height: 600px;
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+    box-shadow:
+    1px 0 darkgrey, 1px 1px grey,
+    2px 1px darkgrey , 2px 2px grey,
+    3px 2px darkgrey, 3px 3px grey,
+    4px 3px darkgrey, 4px 4px grey,
+    5px 4px darkgrey, 5px 5px grey,
+    6px 5px darkgrey, 6px 6px grey,
+    7px 6px darkgrey, 7px 7px grey,
+    8px 7px darkgrey, 8px 8px grey;
+}
+
+
+#colors{
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+#red, #blue, #green, #white{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 5px;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#white{
+    background-color: white;
+}
+#workspace{
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    box-shadow:
+    1px 0 5px black, 1px 1px 5px black;
+}
+.row{
+    background-color: white;
+}
+
+
+
+#row1 {
+    height: 100px;
+    border-bottom: 10px solid black;
+}
+#row1-1{
+    float: left;
+    width: 130px;
+    height: 100px;
+    border-right: 10px solid black;
+}
+#row1-2{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-right: 10px solid black;
+}
+#row1-3{
+    float:left;
+    width: 200px;
+    height: 100px;
+    border-right: 10px solid black;
+}
+#row1-4{
+    width: auto;
+    height: 100px;
+}
+#row2 {
+    height: 100px;
+    border-bottom: 10px solid black;
+}
+#row2-1{
+    height: 100px;
+    width: 80px;
+    float: left;
+    border-right: 10px solid black
+}
+#row2-2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-right: 10px solid black
+}
+#row2-3{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-right: 10px solid black
+}
+#row2-4{
+    width: auto;
+    height: 100px;
+}
+#row3 {
+    height: 80px;
+    border-bottom: 10px solid black;
+}
+#row3-1{
+    width: 70px;
+    float: left;
+    height: 80px;
+    border-right: 10px solid black
+}
+#row3-2{
+    width: 140px;
+    float: left;
+    height: 80px;
+    border-right: 10px solid black
+}
+#row3-3{
+    width: 100px;
+    float: left;
+    height: 80px;
+    border-right: 10px solid black
+}
+#row3-4{
+    height: 80px;
+    width: auto;
+
+}
+#row4 {
+    height: 100px;
+}
+#row4-1{
+    width: 134px;
+    height: 90px;
+    float: left;
+    border-right: 10px solid black;
+}
+#row4-2{
+    width: 156px;
+    height: 90px;
+    float: left;
+    border-right: 10px solid black;
+}
+#row4-3{
+    width: 200px;
+    height: 90px;
+    float: left;
+    border-right: 10px solid black;
+}
+#row4-4{
+    height: 90px;
+    width: auto;
+
+}
+
