@@ -1,0 +1,54 @@
+body{
+    background-color: peachpuff;
+    height: 100%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+header{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    right: 20px;
+    color: lightgrey;
+    margin-right: 10px;
+    text-align: right;
+
+}
+#top{
+    letter-spacing: 2px;
+    font-size: 26px;
+    color: whitesmoke;
+    margin: 180px 0 0 50px;
+}
+
+#fix{
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    width: 100%;
+    margin-left: 50px;
+}
+#key{
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    margin-left: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 2500px;
+    height: 100%;
+    width: 100%;
+}
+#signiture{
+
+    text-align: right;
+
+    font-size: 20px;
+    width: 500px;
+    padding: 0 30px;
+}
+a{
+text-decoration: none;
+
+}
+a:hover{
+    color: red;
+}
