@@ -15,7 +15,7 @@ $('.click').click(function(){
 
         $('#underline').hide();
         $('#choose').append('<h2 class="status">Loser!</h2>');
-
+        $(this).attr('src', "images.jpeg");
         $(this).addClass("loser");
         var lose = $('#loses_amount')[0];
         lose.innerText = parseInt(lose.innerText) + 1;

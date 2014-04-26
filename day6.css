@@ -1,0 +1,36 @@
+.day{
+    position: relative;
+    /*border: black solid 2px;*/
+    float: left;
+    height: 100px;
+    width: 150px;
+    background-color: lemonchiffon;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+#upper,#bottom{
+    position: relative;
+    left: 10%;
+
+}
+body{
+    background-color: aquamarine;
+}
+
+.selected_day{
+    background-color: red;
+    height: 250px;
+}
+#pointer{
+    position: relative;
+    top:100px;
+    height: 100px;
+    width: 150px;
+}
+.selected_bottom{
+    top: 250px;
+    height: 100px;
+    width: 80%;
+    background-color: red;
+}
