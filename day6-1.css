@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+#top{
+    left: 10%;
+    position: absolute;
+}
+.days{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    vertical-align: middle;
+    line-height: 100px;
+    text-align: center;
+}
+#selected{
+
+}

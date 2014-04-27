@@ -14,10 +14,12 @@ header{
 
 }
 #top{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 26px;
     color: whitesmoke;
     margin: 180px 0 0 50px;
+    text-shadow: 1px 0 black;
+
 }
 
 #fix{
@@ -45,10 +47,16 @@ header{
     /*width: 500px;*/
     padding: 0 30px;
 }
+#signiture:hover{
+    text-shadow: 1px 0 darkred, 0 1px darkred;
+}
 a{
 text-decoration: none;
 
 }
 a:hover{
+    color: red;
+}
+p:hover{
     color: red;
 }

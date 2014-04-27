@@ -1,19 +1,25 @@
 .day{
     position: relative;
-    /*border: black solid 2px;*/
     float: left;
     height: 100px;
-    width: 150px;
+    width: 100px;
     background-color: lemonchiffon;
     font-size: large;
     text-align: center;
     font-weight: bold;
 }
-#upper,#bottom{
+#upper{
     position: relative;
     left: 10%;
-
+    line-height: 100px;
 }
+#bottom{
+    position: absolute;
+    width:100%;
+}
+
+
+
 body{
     background-color: aquamarine;
 }
@@ -31,6 +37,6 @@ body{
 .selected_bottom{
     top: 250px;
     height: 100px;
-    width: 80%;
+    width: 100%;
     background-color: red;
 }
