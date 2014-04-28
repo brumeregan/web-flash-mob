@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+#main{
+width: 780px;
+    height: 100%;
+}
+.divs{
+    position: relative;
+   width: 70px;
+    height: 70px;
+    background-color: red;
+    float: left;
+}
+table{
+    margin:0 auto;
+    border-spacing: 0px;
+}
+
+td{
+    background-color: dimgrey;
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: left;
+
+}
+.coloring{
+    box-shadow: inset 1px 1px 5px white;
+}
