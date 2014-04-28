@@ -23,16 +23,19 @@ for(var i=0; i<10; i++){
 }
 //random color
 function color(){
-    function rand(){
-        return Math.floor(Math.random()*256).toString(16);
+   /* function rand(){
+        return Math.floor(Math.random()*255).toString(16);
     }
-    return "#"+rand()+rand()+rand();
+    return "#"+rand()+rand()+rand();*/
+    return '#' + Math.random().toString(16).slice(2, 8);
 }
 
 $('td').hover(function(){
     $(this).css('background-color', color());
     $(this).toggleClass('coloring');
-
+},
+function(){
+    $(this).toggleClass('coloring');
 })
 
 //изменение цвета overmouse
