@@ -1,0 +1,28 @@
+#main{
+
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+    /*display: inline;*/
+    border: 1px solid black;
+}
+
+#computerPart{
+    border:1px dashed black;
+    position: relative;
+   float: left;
+}
+#center{
+    width: 150px;
+    margin: 0 auto;
+    border:1px dashed black;
+    position: relative;
+    /*float: left;*/
+}
+#humanChoice{
+    border:1px dashed black;
+    float: right;
+    /*position: relative;*/
+
+}

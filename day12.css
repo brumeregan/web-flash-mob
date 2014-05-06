@@ -1,0 +1,140 @@
+body{
+    background-color: darkseagreen;
+}
+#main{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#title{
+    margin: 30px;
+    color: ghostwhite;
+    font-size: 100px;
+    text-shadow: 1px 1px black;
+}
+#container{
+    position: relative;
+    margin: 50px;
+}
+
+.dice{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+}
+.cube{
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    margin: 9px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.7) inset,
+    1px 1px 0 rgba(255,255,255,0.5);
+
+    background-color: #fff;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#fff), to(#c1bec9));
+    background: -webkit-radial-gradient(circle, #fff, #c1bec9);
+    background: -moz-radial-gradient(circle, #fff, #c1bec9);
+    background: -ms-radial-gradient(circle, #fff, #c1bec9);
+}
+
+/* order [1   5
+ 		  2 4 6
+ 		  3   7]*/
+.one{
+    top: 3px;
+    left: 3px;
+}
+.two{
+    top: 50px;
+    left: 3px;
+}
+.three{
+    top: 97px;
+    left: 3px;
+}
+.four{
+    top: 50px;
+    left: 50px;
+}
+.five{
+    top: 3px;
+    right: 3px;
+}
+.six{
+    right: 3px;
+    top: 50px;
+}
+.seven{
+    top: 97px;
+    right: 4px;
+}
+
+#shake{
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: #FDF5E6;
+    line-height: 50px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 1px 1px 4px 0 black;
+}
+#shake:active{
+    box-shadow: -1px -1px 2px 0 black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+/* shake */
+.shake {
+    -webkit-animation: shake 1s;
+    -moz-animation: shake 1s;
+    -ms-animation: shake 1s;
+    animation: shake 1s;
+}
+@-webkit-keyframes shake {
+    0%, 100% {-webkit-transform: translateX(0);}
+    5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-webkit-transform: translateX(5px);}
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-webkit-transform: translateX(-5px);}
+}
+
+@-moz-keyframes shake {
+    0%, 100% {-moz-transform: translateX(0);}
+    5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-moz-transform: translateX(5px);}
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-moz-transform: translateX(-5px);}
+}
+
+@-o-keyframes shake {
+    0%, 100% {-o-transform: translateX(0);}
+    5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-o-transform: translateX(5px);}
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-o-transform: translateX(-5px);}
+}
+
+@-ms-keyframes shake {
+    0%, 100% {-ms-transform: translateX(0);}
+    5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-ms-transform: translateX(5px);}
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-ms-transform: translateX(-5px);}
+}
+
+@keyframes shake {
+    0%, 100% {transform: translateX(0);}
+    5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {transform: translateX(5px);}
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {transform: translateX(-5px);}
+}
+
+

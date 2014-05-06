@@ -1,0 +1,46 @@
+body{
+    min-height: 100%;
+    /*position: relative;*/
+    background-color: cornflowerblue;
+    font-size: 100px;
+}
+#container{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.numbers{
+    position: relative;
+    display: inline-block;
+    /*width: 800px;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+}
+
+.fonNumber{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+
+.dots{
+    display: inline-block;
+    position: relative;
+    margin: -20px;
+    /*margin-left: 250px;*/
+    /*margin-top: -15px;*/
+}
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px 20px 0 0;
+}
+a{
+    margin-left: 30px;
+}

@@ -1,0 +1,61 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: darksalmon;
+    line-height: 70px;
+}
+a{
+    margin-left: 50px;
+    color:  #808000;
+}
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#container{
+    width: 900px;
+    margin: 0 auto;
+    /*position: absolute;*/
+    height: 100%;
+}
+.sushi{
+    top: 200px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+}
+/*animation*/
+.shake {
+	-webkit-animation: shake 1s 2;
+	-moz-animation: shake 1s 2;
+	-ms-animation: shake 1s 2;
+	animation: shake 1s 2;
+}
+.hop {
+	-webkit-animation: hop 2s;
+	-moz-animation: hop 2s;
+	-ms-animation: hop 2s;
+	animation: hop 2s;
+}
+/* Webkit Animations */
+
+@-webkit-keyframes shake {
+    0%, 100% {-webkit-transform: translateX(0);}
+    5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-webkit-transform: translateX(-20px);}
+    10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-webkit-transform: translateX(20px);}
+}
+
+@-webkit-keyframes hop {
+    0% {-webkit-transform: translateX(0);}
+    12% {-webkit-transform: translateY(-100px) rotate(-20deg);}
+    25% {-webkit-transform: translateX(-20px);}
+    37% {-webkit-transform: translateY(-100px) rotate(20deg);}
+    50% {-webkit-transform: translateX(20px);}
+    62% {-webkit-transform: translateY(-100px) rotate(-20deg);}
+    75% {-webkit-transform: translateX(-20px);}
+    87% {-webkit-transform: translateY(-100px) rotate(20deg);}
+    100% {-webkit-transform: translateX(0);}
+}
