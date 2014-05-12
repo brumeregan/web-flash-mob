@@ -11,9 +11,6 @@ $(document).ready(function(){
     function getRandom(){
         random = Math.floor(Math.random()*3 + 1);
         return random;
-
-
-        return random;
     }
     switch (random){
         case 1:
@@ -29,35 +26,45 @@ $(document).ready(function(){
 
 $("#stone").click(function(){
     humanChoice = "1";
-    computerChoice = getRandom();
-    changePicture();
-
-    game(computerChoice,humanChoice);
-
+    startGame();
 });
+
 $("#scissors").click(function(){
     humanChoice = "2";
     computerChoice = getRandom();
     changePicture();
+    changePictureUser();
     game(computerChoice,humanChoice);
-
 });
+
 $("#paper").click(function(){
     humanChoice ="3";
     computerChoice = getRandom();
     changePicture();
+    changePictureUser();
     game(computerChoice,humanChoice);
-
 });
+
 function changePicture(){
-    if(computerChoice ==1 ){
-    $("#computerPart > img").html("<img src='rock.png'/>");
-    } else if(computerChoice ==2 ){
-        $("#computerPart > img").html("<img src='scissors.png'/>");
-    }else if(computerChoice ==3 ){
-        $("#computerPart > img").html("<img src='paper.png'/>");
+    if(computerChoice == "1" ){
+    $("#computerPart img").attr("src",'rock.png');
+    } else if(computerChoice =="2" ){
+        $("#computerPart img").attr("src",'scissors.png');
+    }else if(computerChoice == "3" ){
+        $("#computerPart img").attr("src", 'paper.png');
     }
 }
+
+    function changePictureUser(){
+        if(humanChoice == "1" ){
+            $("#humanChoice img").attr("src",'rock.png');
+        } else if(humanChoice =="2" ){
+            $("#humanChoice img").attr("src",'scissors.png');
+        }else if(humanChoice == "3" ){
+            $("#humanChoice img").attr("src", 'paper.png');
+        }
+    }
+
 
 function game(x, y){
    if(x == y){
@@ -75,8 +82,25 @@ function game(x, y){
    } else if(x == "3" && y == "2"){
        $("#center > h2").html("<h2>User wins!</h2>");
    }
+}
+
+function shakeHands(){
+    $('#leftHand, #rightHand').addClass('shake');
+}
+    function results(){
+        $(".fist").addClass('shake');
+        $('.fist').hide();
+
+    }
+////////////////////
+function startGame(){
+$('.fist').show();
+    getRandom();
+    changePicture();
+    setTimeout(game(computerChoice,humanChoice), 1000);
 
 
 }
 
-})
+
+});
