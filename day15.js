@@ -28,8 +28,8 @@ $('.colors').on('click', function (){
     $(this).addClass(animation);
 
     setTimeout(function(){
-        $(this).removeClass(animation);
-    }, 1000);
+        $('.colors').removeClass(animation);
+    }, 4000);
 });
 
 })
