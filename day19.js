@@ -9,6 +9,7 @@ $(document).ready(function(){
         var totalScore= getScore();
         var message;
 
+
         if(totalScore < 18*0.25){
             message = "You're definitely not an SF hipster.";
         } else if (totalScore < 18*0.5) {
@@ -18,12 +19,13 @@ $(document).ready(function(){
         } else {
             message = "You're a Super SF Hipster!";
         }
+        var your_score = "<div id='score'>You're score is " + totalScore + ".</div>";
+        message = '<div id="message">' + message + '</div>';
+
+        $('#container').html(your_score + message);
     });
 
-    var your_score = "<div id='score'>You're score is ' + totalScore + '.</div>";
-   message = '<div id="message">' + message + '</div>';
 
-    $('#container').html(your_score + message);
 
     function getScore() {
         var score = 0;
