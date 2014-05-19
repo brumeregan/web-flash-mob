@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 60px;
+}
+a{
+    position: relative;
+    float: right;
+    line-height: 60px;
+    text-decoration: none;
+    color: plum;
+    margin-right: 30px;
+}
+.spot {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255,255,255,0.8);
+
+    -webkit-animation: pulse 2s infinite;
+    -moz-animation: none;
+    -o-animation: pulse 2s infinite;
+    -ms-animation: pulse 2s infinite;
+    animation: none;
+}
+@-webkit-keyframes pulse {
+    0%, 100% {-webkit-transform: scale(1);}
+    25%, 75% {-webkit-transform: scale(1.08);}
+    50% {-webkit-transform: scale(0.92);}
+}
+
+@-o-keyframes pulse {
+    0%, 100% {-o-transform: scale(1);}
+    25%, 75% {-o-transform: scale(1.08);}
+    50% {-o-transform: scale(0.92);}
+}
+@-ms-keyframes pulse {
+    0%, 100% {-ms-transform: scale(1);}
+    25%, 75% {-ms-transform: scale(1.08);}
+    50% {-ms-transform: scale(0.92);}
+}

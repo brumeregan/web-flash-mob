@@ -1,0 +1,43 @@
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    background-color: mediumpurple;
+
+}
+a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    font-size: 18px;
+    float: right;
+}
+
+header > div :hover{
+    background-color: plum;
+}
+#container{
+    margin-top: 60px;
+    position: relative;
+}
+#right{
+    position: relative;
+    height: 600px;
+    width: 150px;
+    margin: 40px;
+    display: inline-block;
+    border: 1px solid black;
+
+}
+#left{
+    margin-top: 40px;
+    display: inline-block;
+    height: 600px;
+    width: 700px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid black;
+}
