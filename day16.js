@@ -11,12 +11,7 @@ $(document).ready(function (){
         mouseY = e.pageY;
     });
 
-    document.addEventListener('touchmove', function(e) {
-        e.preventDefault();
 
-        mouseX = e.pageX;
-        mouseY = e.pageY;
-    }, false);
 
     for (var i = 0; i < 30; i++) {
         moveDiv("#spot"+i, randomInt(8, 50));
@@ -48,9 +43,9 @@ $(document).ready(function (){
             $(elm).css({left:xp, top:yp});
 
         }, 30);
-    };
+    }
 
     function randColor(){
         return '#' + Math.random().toString(16).slice(2, 8);
     }
-})
+});
