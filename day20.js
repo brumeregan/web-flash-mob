@@ -10,14 +10,17 @@ $(document).on('mousemove', function(e){
     });*/
 $(document).on('click', function(e){
     var random = randomInt(1, 30);
-        $('body').append("<div class='spots'" + random + "></div>");
-        $(".spots" ).css({
+
+
+        var div= $("<div class='spots'" + random + "></div>");
+
+        div.css({
             backgroundColor: randomColor(),
             top: e.pageY,
             left: e.pageX,
             height: random + 'px',
             width: random + 'px'});
-
+        div.appendTo("body");
 
     });
 
