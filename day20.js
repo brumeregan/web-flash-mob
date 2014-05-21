@@ -22,6 +22,10 @@ $(document).on('click', function(e){
             width: random + 'px'});
         div.appendTo("body");
 
+
+    setTimeout(function(){
+        div.fadeOut('slow');
+    }, 5000);
     });
 
     function randomInt(min, max){

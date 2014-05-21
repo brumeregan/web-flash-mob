@@ -1,0 +1,10 @@
+a.animated img{
+    transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out
+}
+a.animated img:hover{
+    transform:scale(0.9) rotate(360deg);
+    -moz-transform:scale(0.9) rotate(360deg);
+    -webkit-transform:scale(0.9) rotate(360deg)
+}
